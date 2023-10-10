@@ -42,7 +42,7 @@ dosha_weights = {
     }
 }
 
-# Load questionnaire data outside of the function
+
 with open('chatbot/questionnaire.json', 'r') as file:
     questionnaire = json.load(file)
 
@@ -101,4 +101,4 @@ def provide_feedback(prakruti_type):
         "Kapha": "Your dominant dosha is Kapha. Kapha-dominant individuals may have a stable appetite but may tend to overeat."
     }
 
-    return feedback_messages.get(prakruti_type, "Your Prakruti type is balanced.")
+    return feedback_messages.get(prakruti_type,"your prakriti type is balanced.")
