@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
     setTimeout(() => {
-      const chatbotResponse = "This is a sample response from the chatbot.";
+      const chatbotResponse = "Test message.";
       handleServerResponse(chatbotResponse);
     }, 1000); 
   }
